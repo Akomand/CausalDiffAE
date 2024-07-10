@@ -1,0 +1,1 @@
+python image_diffae_test.py --data_dir ../datasets/morphomnist_data/ --model_path ../results/morphomnist/diffae_aligned/model006000.pt --n_vars 2 --in_channels 1 --image_size 28 --num_channels 128 --num_res_blocks 3 --learn_sigma False --class_cond True --rep_cond True --diffusion_steps 1000 --batch_size 16

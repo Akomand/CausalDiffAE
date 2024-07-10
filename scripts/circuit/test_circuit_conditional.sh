@@ -1,0 +1,1 @@
+python image_conditional_test.py --data_dir ../datasets/causal_circuit/ --model_path ../results/circuit/label_conditional/model045000.pt --n_vars 4 --in_channels 3 --image_size 128 --num_channels 128 --num_res_blocks 3 --learn_sigma False --context_cond True --diffusion_steps 2000 --batch_size 16 --timestep_respacing 250 --use_ddim True

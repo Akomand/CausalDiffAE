@@ -1,0 +1,1 @@
+mpiexec -n 5 python image_train.py --data_dir ../datasets/causal_circuit/ --in_channels 3 --image_size 128 --num_channels 128 --num_res_blocks 3 --learn_sigma False --context_cond True --diffusion_steps 2000 --noise_schedule linear --rescale_learned_sigmas False --rescale_timesteps False --lr 1e-4 --batch_size 16

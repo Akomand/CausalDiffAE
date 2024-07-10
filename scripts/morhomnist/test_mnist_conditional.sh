@@ -1,0 +1,1 @@
+python image_sample.py --data_dir ../datasets/morphomnist_data/ --model_path ../results/morphomnist/labels_conditional/model006000.pt --image_size 28 --num_channels 128 --num_res_blocks 3 --learn_sigma False --class_cond True --context_cond True --diffusion_steps 1000 --use_ddim True

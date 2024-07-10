@@ -1,0 +1,1 @@
+python image_diffae_test.py --data_dir ../datasets/causal_circuit/ --model_path ../results/circuit/diffae_unaligned/model020000.pt --in_channels 3 --n_vars 4 --image_size 128 --num_channels 128 --num_res_blocks 3 --learn_sigma False --class_cond False --causal_modeling False --rep_cond True --diffusion_steps 2000 --batch_size 16 --timestep_respacing 250 --use_ddim True
